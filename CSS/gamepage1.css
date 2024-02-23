@@ -1,0 +1,317 @@
+@import url('header.css');
+@import url('footer.css');
+
+/*----------- MEDIA QUERIES NEEDS TO BE AT BOTTOM -----------*/          
+@import url('mediaqueries.css');
+
+
+                              
+
+:root {
+    --blue: #46D3FF;
+    --whitetext: FFFFFF;
+    --boxes1: 1C1C1C;
+    --boxes2: 232323;
+    --pagebackroundcolor: 121212;
+    --footer: rgba(82, 82, 82, 0.17);
+    --mobilefooterbackround: 0C0C0C;
+    --pricetagcolor: 3B5B15;
+    --pricetagcolorhover: 86C936;
+}
+
+
+                                /*----------- MAIN AREA -----------*/
+
+
+a {
+    all: unset;
+}
+
+#logoimage {
+    cursor: pointer;
+}
+
+#shoppingcarticon {
+    cursor: pointer;
+}
+
+#cart-notification {
+    position: absolute;
+    top: 15px;
+    right: 125px;
+    background-color: green;
+    color: white;
+    padding: 0px 5px;
+    font-size: 12px;
+    z-index: 2;
+}
+
+
+
+body {
+
+    background-color: var(--pagebackroundcolor);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 350px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--whitetext);
+
+}
+
+.test1-gamepage {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1600px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.backroundcontainer {
+    width: 100%;    
+}
+
+#imagebackround {
+    width: 100%;
+}
+
+.upperhalf-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+.lowerhalf-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gamemediacontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: fit-content;
+}
+
+.mainmedia > img {
+    width: 50vw;
+    max-width: 600px;
+}
+
+.mediarow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mediarow > img {
+    width: 12vw;
+    max-width: 260px;
+    min-width: 100px;
+}
+
+
+
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 85vw;
+    max-width: 800px;
+}
+
+
+
+
+.gametags {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 20px;
+
+}
+
+.gametags > p {
+    background-color: var(--pagebackroundcolor);
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.systems {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.systems > img {
+    width: 40px;
+}
+
+.addtowishlist {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+#hearticon {
+    width: 3%;
+}
+
+.box1 {
+    background-color: rgba(35, 35, 35, 0.6);
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(35, 35, 35, 0.6);
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#gametitle {
+    font-weight: 400;
+
+}
+
+#gameshortdesc {
+    overflow:hidden;
+}
+
+#pricetag {
+    background-color: var(--pagebackroundcolor);
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 5px 20px 5px 20px;
+}
+
+#addtocart {
+    color: var(--whitetext);
+    background-color: var(--pricetagcolor);
+    text-align: center;
+    align-self: center;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    width: 170px;
+    margin-right: 0;
+    text-transform: uppercase;
+}
+
+
+#addtocart:hover {
+    background-color: var(--pricetagcolorhover);
+  }
+
+  
+
+
+#offertimertext {
+    font-weight: 200;
+    margin: 0;
+}
+
+.buytext {
+    display: flex;
+    flex-direction: column;
+}
+
+#weekenddealtext {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.buyandprice {
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+}
+
+
+#moreaboutthisgametext {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 80px;
+    display: none;
+}
+
+.gamedescription {
+    width: 45%;
+    font-weight: 200;
+}
+
+.gamelistbottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.similartitles {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.gamelistbottom > img {
+    transition: transform 0.2s ease;
+    width: 9vw;
+    max-width: 260px;
+    min-width: 120px
+}
+
+.gamelistbottom > img:hover {
+    transition: transform 0.2s ease;
+    transform: scale(1.1); 
+    cursor: pointer;
+    
+  }
+
+.similartitles > h4 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#mobiletextgamepage {
+    display: none;
+}
+
+
+#moreaboutthisgametextdesktop {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 80px;
+}
+
+#desktoponly {
+    font-weight: 200;
+}
+
+.mediatest {
+    margin: 0px;
+}

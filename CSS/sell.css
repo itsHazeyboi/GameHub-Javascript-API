@@ -1,0 +1,196 @@
+@import url(header.css);
+@import url(footer.css);
+
+/*----------- MEDIA QUERIES NEEDS TO BE AT BOTTOM -----------*/
+@import url(mediaqueries.css);
+
+:root {
+  --blue: #46d3ff;
+  --whitetext: FFFFFF;
+  --boxes1: 1C1C1C;
+  --boxes2: 232323;
+  --pagebackroundcolor: 121212;
+  --footer: rgba(82, 82, 82, 0.17);
+  --mobilefooterbackround: 0C0C0C;
+  --pricetagcolor: 3B5B15;
+  --pricetagcolorhover: 86C936;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+body {
+  background-color: var(--pagebackroundcolor);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  min-width: 350px;
+  font-family: "Poppins", sans-serif;
+  color: var(--whitetext);
+}
+
+.sellbackroundcontainer {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/Logos_ect/backgroundstore.png");
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#elligibleforsale {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sellheader1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.sellheader2 {
+  font-weight: 200;
+  margin: 0;
+}
+
+.textcontainersell > h2 {
+  font-weight: 300;
+}
+
+.mainpagesellcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 60px 0px 60px;
+}
+
+.toptextcontainersell {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.sortbycontainer {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.sortbycontainer > p {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+#sortby {
+  background-color: var(--boxes1);
+  display: flex;
+  align-items: center;
+  height: 40px;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.textcontainersell {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textleft > p,h2 {
+  margin: 0;
+}
+
+.sellallgamescontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sellgamescontainer {
+  background-color: var(--boxes1);
+  padding: 6px 6px 0px 6px;
+  width: fit-content;
+}
+
+#sellgamestitle {
+  margin: 10px 0px 0px 5px;
+}
+
+.sellgamestextcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 5px 0px 5px;
+}
+
+.sellgamesleftcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#sellgamesleftcontainerprice {
+  background-color: var(--mobilefooterbackround);
+  padding: 0 10px;
+}
+
+.checkboxes {
+  scale: 1.5;
+}
+
+.bottomelementscontainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+}
+
+.sellbottomtextcontainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#selectedgamestext {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.sell-continuebutton {
+  color: var(--whitetext);
+  background-color: var(--pricetagcolor);
+  text-align: center;
+  align-self: center;
+  padding: 5px 20px;
+  font-size: 1.5rem;
+  margin-right: 25px;
+  transition: background-color 0.5s;
+  cursor: pointer;
+  width: 125px;
+  min-width: 125px;
+}
+
+.sell-continuebutton:hover {
+  background-color: var(--pricetagcolorhover);
+}
+
+ul {
+  margin-bottom: 0px !important;
+  margin-top: 60px !important;
+}

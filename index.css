@@ -1,0 +1,249 @@
+@import url(CSS/header.css);
+@import url(CSS/footer.css);
+
+/*----------- MEDIA QUERIES NEEDS TO BE AT BOTTOM -----------*/          
+@import url(CSS/mediaqueries.css);
+
+                            
+
+:root {
+    --blue: #46D3FF;
+    --whitetext: FFFFFF;
+    --boxes1: 1C1C1C;
+    --boxes2: 232323;
+    --pagebackroundcolor: 121212;
+    --footer: rgba(82, 82, 82, 0.17);
+    --mobilefooterbackround: 0C0C0C;
+}
+
+
+                                /*----------- MAIN AREA -----------*/
+
+#loader {
+    width: 8vw;
+    height: 8vw;
+    position:fixed;
+    left: 45vw;
+    top: 700px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+
+    #cart-notification {
+      position: absolute;
+      top: 15px;
+      right: 125px;
+      background-color: green;
+      color: white;
+      padding: 0px 5px;
+      font-size: 12px;
+      z-index: 2;
+  }
+  
+    
+    
+
+.test2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.test1 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+body {
+    background-color: var(--pagebackroundcolor);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 350px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--whitetext);
+
+}
+
+
+
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: var(--whitetext);
+    padding-left: 40;
+    padding-top: 30;
+    padding-bottom: 45;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#featuredandreccomended {
+  font-size: 1.5rem;
+}
+
+
+.TopSellersGames {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    list-style: none;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: 4rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    margin-top: 0;
+    
+
+  }
+
+  .TopSellersGames  li {
+    transition: transform 0.2s ease;
+  }
+
+
+  .TopSellersGames li img {
+    max-width: 400px;
+    width: 10.1vw;
+    min-width: 130px;
+    scale: 1.08;
+  }
+
+
+  .TopSellersGames > li:hover {
+    transition: transform 0.2s ease;
+    transform: scale(1.1); 
+    cursor: pointer;
+    
+  }
+
+
+#backroundimage {
+  width: 100%;
+}
+
+
+.gametitle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gameonSale {
+  color: #48e637;
+}
+
+
+.filterby {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#summaryfield {
+  cursor: pointer;
+}
+
+.filterby  li {
+  list-style: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.filterby  li:hover {
+  transition: 0.2s;
+  color: #46D3FF;
+}
+
+.ul-filterbox {
+  position: absolute;
+  padding: 0px;
+  z-index: 20;
+}
+
+
+
+/* I would put this in media queries.css but since 
+I won't be using this over again, I'd just rather have it here for now and keep the mediaqueries.css clean for re-usability */
+
+@media screen and (max-width: 1408px) {  /*---MOBILE DEVICES VERSION----*/
+  
+  .TopSellersGames li img {
+      max-width: 220px !important; 
+      width: 20vw !important;
+      min-width: 180px !important;
+      scale: 1 !important;
+    }
+
+
+    .TopSellersGames {
+      gap: 60px !important;
+    }
+
+    .bottomlist {
+      padding-bottom: 110px;
+    }
+  
+
+
+}                                           
+                      
+  @media screen and (max-width: 562px) { /*Small fixes to phone version. (tried putting this in mediaqueries but didnt work*/ 
+
+    .TopSellersGames {
+        margin-left: 10 !important;
+        margin-right: 10 !important;
+        gap: 50px !important;
+    }
+
+    h1,h2,h3 {
+        font-size: 22px !important;
+        padding-left: 40px !important;
+    }
+
+    .TopSellersGames li img {
+        max-width: 100% !important; 
+        width: 20vw !important;
+        min-width: 130px !important;
+      }
+      
+      #backroundimage {
+        width: 200vw;
+      }
+      
+      
+      .backroundimagecontainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+      }
+      
+
+  }     
+
+

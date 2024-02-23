@@ -1,0 +1,74 @@
+@import url(header.css);
+@import url(footer.css);
+
+/*----------- MEDIA QUERIES NEEDS TO BE AT BOTTOM -----------*/          
+@import url(mediaqueries.css);
+
+:root {
+    --blue: #46D3FF;
+    --whitetext: FFFFFF;
+    --boxes1: 1C1C1C;
+    --boxes2: 232323;
+    --pagebackroundcolor: 121212;
+    --footer: rgba(82, 82, 82, 0.17);
+    --mobilefooterbackround: 0C0C0C;
+    --pricetagcolor: 3B5B15;
+    --pricetagcolorhover: 86C936;
+}
+
+
+                                /*----------- MAIN AREA -----------*/
+
+
+
+
+body {
+    background-color: var(--pagebackroundcolor);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 350px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--whitetext);
+
+}
+
+.aboutbackroundcontainer {
+    background-image: url(../images/Logos_ect/phonemenuebackround.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.aboutbackroundcontainer > img {
+    width: 20vw;
+    min-width: 300px;
+}
+
+.aboutpagemaincontainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    gap: 40px;
+}
+
+.aboutpagetextcontainer > h1, h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+.aboutpagetextcontainer > p {
+    text-align: center;
+    font-weight: 200;
+}
+
+
+
+.aboutpagetextcontainer > h1 {
+    margin-top: 60px;
+}
+

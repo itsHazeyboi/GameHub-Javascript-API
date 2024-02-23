@@ -1,0 +1,189 @@
+@import url('header.css');
+@import url('footer.css');
+
+/*----------- MEDIA QUERIES NEEDS TO BE AT BOTTOM -----------*/          
+@import url('mediaqueries.css');
+
+
+                              
+
+:root {
+    --blue: #46D3FF;
+    --whitetext: FFFFFF;
+    --boxes1: 1C1C1C;
+    --boxes2: 232323;
+    --pagebackroundcolor: 121212;
+    --footer: rgb(30, 30, 30);
+    --mobilefooterbackround: 0C0C0C;
+    --pricetagcolor: 3B5B15;
+    --pricetagcolorhover: 86C936;
+}
+
+
+                                /*----------- MAIN AREA -----------*/
+
+
+a {
+    all: unset;
+}
+
+#logoimage {
+    cursor: pointer;
+}
+
+
+body {
+    background-color: var(--pagebackroundcolor);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 350px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--whitetext);
+
+}
+
+
+#emptycartheader1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: var(--whitetext);
+    font-size: 3rem;
+    margin: 0;
+    z-index: 0;
+
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: var(--whitetext);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+.textcontainercart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3vh;
+    padding-bottom: 18vh;
+
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    margin-top: 0 !important;
+}
+
+
+#addgamestocart {
+    cursor: pointer;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#addtocartbutton {
+    color: var(--whitetext);
+    background-color: var(--pricetagcolor);
+    text-align: center;
+    align-self: center;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    width: 300px;
+    margin-right: 0;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+
+#addtocartbutton:hover {
+    background-color: var(--pricetagcolorhover);
+  }
+  
+
+
+
+
+/* HERE I PUT STYLES FOR JAVASCRIPT GENERATED HTML */ 
+
+#cart-notification {
+    position: absolute;
+    top: 15px;
+    right: 125px;
+    background-color: green;
+    color: white;
+    padding: 0px 5px;
+    font-size: 12px;
+    z-index: 2;
+}
+
+#shoppingcarticon {
+    cursor: pointer;
+}
+
+.gameImage {
+    width: 200px;
+}
+
+.cart-full-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.cart-item-container {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+
+.cart-item-text-container {
+    margin-left: 20px;
+}
+
+.remove-from-cart-button {
+    height: 30px;
+    align-self: flex-end;
+}
+
+
+#cart-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+#cart-bottom-text {
+    display: flex;
+    margin-top: 50px;
+}
+
+

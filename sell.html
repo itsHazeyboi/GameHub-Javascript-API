@@ -1,0 +1,465 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="CSS/sell.css" />
+    <meta charset="UTF-8" />
+    <title>GameHub</title>
+    <meta
+      name="description"
+      content="Sell your games here at Gamehub for up to 50% of the original value!"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="favicon_package_v0.16/android-chrome-384x384.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Signika:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    <header>
+        <div class="headercontainermain">
+          <div class="header-container-left">
+            <a href="index.html">
+              <img id="logoimage" src="images/Logos_ect/gamehublogo.png" alt="website logo"/>
+            </a>
+            <nav class="headerbuttons">
+              <a href="index.html"><button class="btn">Home</button></a>
+              <a href="store.html"><button class="btn">Store</button></a>
+              <a href="library.html"><button class="btn">Library</button></a>
+              <a href="sell.html"><button class="btn activebuttonpage">Sell</button></a>
+              <a href="about.html"><button class="btn">About</button></a>
+            </nav>
+          </div>
+          <div class="header-container-right">
+            <form class="searchbar" id="searchbar-desktop" action="store.html" method="GET">
+              <input id="searchplaceholder" type="text" name="q" placeholder="Search" />
+              <img id="searchicon" src="favicon_package_v0.16/searchvector.svg" alt="search icon"/>
+            </form>
+            <a href="emptycart.html"><img id="shoppingcarticon" src="favicon_package_v0.16/Shopping_Cart_02.svg"></a>
+            <img id="pfpicture" src="images/Logos_ect/pfpicture.jpg">
+          </div>
+        </div>
+      </header>
+
+
+    <main>
+      <div class="sellbackroundcontainer">
+        <h1 class="sellheader1">Sell your games</h1>
+        <h2 class="sellheader2">Get up to as much as 50% of the original price!</h2>
+      </div> 
+      <div class="mainpagesellcontainer">
+        <div class="toptextcontainersell">
+          <div class="textcontainersell">
+            <h2 id="selecttitles"> Select the titles you wish to sell </h2>
+            <div class="sortbycontainer">
+              <p>Sort By</p>
+              <div id="sortby">
+                <p id="relevancetag">Price</p>
+                <img src="favicon_package_v0.16/sortbyarrow.svg" alt="sort by" />
+              </div>
+            </div>
+           </div>
+          <p id="elligibleforsale"> Elligible for sale (15) </p>  
+          </div>
+                <div class="sellallgamescontainer">
+                <div class="sellgamescontainer">
+                            <img src="images/game_images/lowres/hogwarts.jpg" alt="game cover">
+                            <p id="sellgamestitle"> Hogwarts Legacy </p>
+                            <div class="sellgamestextcontainer">
+                              <div class="sellgamesleftcontainer"> 
+                                <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                                <p id="sellgamesleftcontainerprice"> 231,00 kr</p>
+                              </div>
+                                <div class="checkboxcontainer">
+                                <div class="checkboxes">
+                                  <input type="checkbox" id="myCheckbox1" />
+                                </div>
+                            </div>
+                          </div>
+                </div>
+                <div class="sellgamescontainer">
+                          <img src="images/game_images/lowres/spiderman.jpg" alt="game cover">
+                          <p id="sellgamestitle"> Spider Man </p>
+                          <div class="sellgamestextcontainer">
+                            <div class="sellgamesleftcontainer"> 
+                              <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                              <p id="sellgamesleftcontainerprice"> 231,00 kr</p>
+                            </div>
+                              <div class="checkboxcontainer">
+                              <div class="checkboxes">
+                                <input type="checkbox" id="myCheckbox1" />
+                              </div>
+                          </div>
+                        </div>
+                </div>
+                <div class="sellgamescontainer">
+                        <img src="images/game_images/lowres/starwars.jpg" alt="game cover">
+                        <p id="sellgamestitle"> Jedi Survivor </p>
+                        <div class="sellgamestextcontainer">
+                          <div class="sellgamesleftcontainer"> 
+                            <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                            <p id="sellgamesleftcontainerprice"> 231,00 kr</p>
+                          </div>
+                            <div class="checkboxcontainer">
+                            <div class="checkboxes">
+                              <input type="checkbox" id="myCheckbox1" />
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="sellgamescontainer">
+                      <img src="images/game_images/lowres/baldursgate.jpg" alt="game cover">
+                      <p id="sellgamestitle"> Baldurs Gate III </p>
+                      <div class="sellgamestextcontainer">
+                        <div class="sellgamesleftcontainer"> 
+                          <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                          <p id="sellgamesleftcontainerprice">  231,00 kr</p>
+                        </div>
+                          <div class="checkboxcontainer">
+                          <div class="checkboxes">
+                            <input type="checkbox" id="myCheckbox1" />
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                  <div class="sellgamescontainer">
+                    <img src="images/game_images/lowres/readdead2.jpg" alt="game cover">
+                    <p id="sellgamestitle"> Red Dead II </p>
+                    <div class="sellgamestextcontainer">
+                      <div class="sellgamesleftcontainer"> 
+                        <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                        <p id="sellgamesleftcontainerprice"> 231,00 kr</p>
+                      </div>
+                        <div class="checkboxcontainer">
+                        <div class="checkboxes">
+                          <input type="checkbox" id="myCheckbox1" />
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/ratchet.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Ratchet And Clank </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 231,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/monsterhunter.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Monster Hunter </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 231,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/isaac.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Binding Of Isaac </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 199,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/huntshowdown.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Hunt Showdown </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 199,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/accreed.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Assasins Creed </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 199,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/satisfactory.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Satisfactory </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 149,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/arma3.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Arma 3 </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 149,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/battlefront2.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Battlefront II </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 139,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/trackmania.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Trackmania </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 139,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/riskofrain.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Risk of Rain II </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 110,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/gta.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Grand Theft Auto </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 110,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/bl2.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Borderlands 2 </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 100,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/dayz.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Day-Z </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 99,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/readdead1.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Read Dead I </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 89,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/phasmophobia.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Phasmophobia </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 89,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/beatsaber.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Beatsaber </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 40,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/demonologist.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Demonologist </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 40,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/csgo2.jpg" alt="game cover">
+                  <p id="sellgamestitle"> CSGO </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 1,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <div class="sellgamescontainer">
+                  <img src="images/game_images/lowres/fallguys.jpg" alt="game cover">
+                  <p id="sellgamestitle"> Fall Guys </p>
+                  <div class="sellgamestextcontainer">
+                    <div class="sellgamesleftcontainer"> 
+                      <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+                      <p id="sellgamesleftcontainerprice"> 1,00 kr</p>
+                    </div>
+                      <div class="checkboxcontainer">
+                      <div class="checkboxes">
+                        <input type="checkbox" id="myCheckbox1" />
+                      </div>
+                  </div>
+                </div>
+                </div>
+          <div class="bottomelementscontainer">    
+          <div class="sellbottomtextcontainer">
+            <p id="selectedgamestext"> Selected games (*) </p>
+            <p class="sell-continuebutton"> <a href="index.html"> PROCEED </a> </p>
+          </div>
+        </div> 
+      </div>
+
+    </main>
+
+
+    <footer>
+        <div class="footercontainer">
+        <ul>
+            <li class="footertext2"> <a href="contactus.html"> CONTACT US </a> </li>
+            <li class="footerline2"> ┃ </li>
+            <li class="footertext3"> REFUNDS AND RETURNS </li>
+            <li class="footerline3"> ┃ </li>
+            <li class="footertext4"> TERMS OF SERVICE </li>
+            <li class="footerline4"> ┃ </li>
+            <li class="footertext5"> <a href="about.html"> ABOUT US </a> </li>
+        </ul>
+    </div>
+    <div class="footercontainermobile">
+      <a href="emptycart.html"><img src="favicon_package_v0.16/shoppingcartmobile.svg" alt="shopping cart"></a>
+      <a href="index.html"><img src="favicon_package_v0.16/homeicon_lit.svg" alt="home page"></a>
+      <a href="phonemenu.html"><img src="favicon_package_v0.16/hamburgermenu.svg" alt="menu"></a>
+      </div>
+    </footer>
+  </body>
+</html>

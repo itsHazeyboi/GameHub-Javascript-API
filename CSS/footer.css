@@ -1,0 +1,71 @@
+
+
+:root {
+    --blue: #46D3FF;
+    --whitetext: FFFFFF;
+    --boxes1: 1C1C1C;
+    --boxes2: 232323;
+    --pagebackroundcolor: 121212;
+    --footer: rgb(30, 30, 30);
+    --mobilefooterbackround: 0C0C0C;
+}
+
+
+
+
+.footertext2 > a {
+    all: unset;
+    cursor: pointer;
+}
+
+.footertext5 > a {
+    all: unset;
+    cursor: pointer;
+transition: 0.1s;
+}
+
+
+.footertext2 > a:hover {
+    color:  #46D3FF;
+}
+
+.footertext5 > a:hover {
+    color:  #46D3FF;
+}
+
+
+
+.footercontainer > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--footer);
+    margin-top: 100px;
+    font-size: 17px;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+
+
+.footertext1, .footertext2, .footertext3, .footertext4, .footertext5 {
+    margin-right: 7vw;
+    margin-left: 7vw; 
+    position: relative;
+}
+
+.footercontainermobile {
+    display: none;
+}
+
+
+.footercontainermobile img {
+    width: 2rem;
+    margin-left: 40;
+    margin-right: 40;
+}
+
+

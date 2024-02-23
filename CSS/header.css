@@ -1,0 +1,139 @@
+
+:root {
+    --blue: #46D3FF;
+    --whitetext: FFFFFF;
+    --boxes1: 1C1C1C;
+    --boxes2: 232323;
+    --pagebackroundcolor: 121212;
+    --footer: rgba(82, 82, 82, 0.17);
+    --mobilefooterbackround: 0C0C0C;
+}
+
+
+
+
+
+header {
+    top: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.headercontainermain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+
+
+.header-container-left {
+    display: flex;
+    justify-content: left;
+}
+
+.headerbuttons {
+    margin-left: 54px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 61px;
+    align-items: center;
+  }
+
+
+  .btn {
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    background-color: 121212;
+    color: var(--whitetext);
+    border-style: none;
+    margin-top: 0;
+    padding: 5 15;
+    cursor:pointer;
+    font-weight: 600;
+    transition: color 0.2s, backround-color 0.2s;
+}
+
+.btn:hover {
+    color: 46D3FF;
+}
+
+.activebuttonpage {
+    color:#46D3FF;
+    text-decoration-line: underline;
+}
+
+
+
+
+#searchicon {
+    width: 26px;
+    margin-right: 10px;
+}
+
+form.searchbar {
+    background-color: var(--whitetext);
+    display: flex;
+    margin:0 42 0 0;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    height: 34px;
+}
+
+input {
+    margin-right: 5px;
+    border: none;
+}
+
+.searchbar > input {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchbar > input[type="text"]:focus {
+    outline: var(--whitetext);
+}
+
+.header-container-right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+form#searchbar-mobile {
+    background-color: var(--whitetext);
+    display: flex;
+    padding-left: 20px;
+    margin-right: 0;
+}
+
+
+#mobilesearchbarcontainer {
+    display: none;
+}
+
+#logoimage {
+    margin-left: 58px;
+    width: 80;
+}
+
+#shoppingcarticon {
+    scale: 1.25;
+    width: 28px;
+    margin-right: 30px;
+}
+
+#pfpicture {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-right: 30px;
+}

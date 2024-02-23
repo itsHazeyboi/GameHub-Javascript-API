@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="CSS/gamepage1.css" />
+  <meta charset="UTF-8" />
+  <title>GameHub</title>
+  <meta name="description" content="Red Dead Redemption 2 - Game Page and info" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" type="image/x-icon" href="favicon_package_v0.16/android-chrome-384x384.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Signika:wght@300;500&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/020a010897.js" crossorigin="anonymous"></script>
+  <script type="module" src="scripts/gamePageBuilder.mjs"></script>
+  <script type="module" src="scripts/imagerotator.mjs"></script>
+  <script type="module" src="scripts/salecountdown.mjs"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="headercontainermain">
+      <div class="header-container-left">
+        <a href="index.html">
+          <img id="logoimage" src="images/Logos_ect/gamehublogo.png" alt="website logo" />
+        </a>
+        <nav class="headerbuttons">
+          <a href="index.html"><button class="btn">Home</button></a>
+          <a href="store.html"><button class="btn">Store</button></a>
+          <a href="library.html"><button class="btn">Library</button></a>
+          <a href="sell.html"><button class="btn">Sell</button></a>
+          <a href="about.html"><button class="btn">About</button></a>
+        </nav>
+      </div>
+      <div class="header-container-right">
+        <form class="searchbar" id="searchbar-desktop" action="store.html" method="GET">
+          <input id="searchplaceholder" type="text" name="q" placeholder="Search" />
+          <img id="searchicon" src="favicon_package_v0.16/searchvector.svg" alt="search icon" />
+        </form>
+        <div>
+          <a href="emptycart.html"><img id="shoppingcarticon" src="favicon_package_v0.16/Shopping_Cart_02.svg"></a>
+        <p id="cart-notification"></p>
+      </div>
+        <img id="pfpicture" src="images/Logos_ect/pfpicture.jpg">
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="backroundcontainer">
+      <img id="imagebackround" src="images/game_images/reddeadcover.jpg" alt="red dead 2 cover">
+    </div>
+    <div class="test1-gamepage">
+      <div class="upperhalf-container">
+        <figure class="mediatest">
+          <div class="gamemediacontainer">
+            <div class="mainmedia">
+              <img alt="game image" id="mainimage">
+            </div>
+
+          </div>
+          <figcaption>
+            <h3 id="moreaboutthisgametextdesktop"> More About This Game </h3>
+            <p id="desktoponly">
+              In a diverse gaming landscape, where genres collide and imaginations run wild, players are invited to
+              embark on a myriad of adventures. <br>
+              From the intense action of "Boxer" to the cosmic battles of "Space War," and the thrilling escapades of
+              "Super Duper," each game offers its unique brand of excitement.<br>
+              Delve into the legendary quests of "Forge Legend," feel the adrenaline rush in "Racing" and "Furious," and
+              immerse yourself in the neon-lit dystopia of "Cyberpunk.<br>
+              Test your skills in the precision of "Ping Pong Championship," navigate the shadows in "Assassin," and
+              confront the depths of darkness in "Black." With a plethora of worlds to explore and challenges to
+              conquer, the gaming universe awaits your discovery.<br>
+            </p>
+          </figcaption>
+        </figure>
+        <div class="infocontainer">
+          <div class="box1">
+            <div class="systems">
+              <img src="favicon_package_v0.16/windowsicon.svg" alt="playable on windows">
+              <img src="favicon_package_v0.16/sonyicon.svg" alt="playable on playstation">
+            </div>
+            <h1 id="gametitle"> </h1>
+            <p id="agerating"> </p>
+            <p id="gameshortdesc"> </p>
+            <p id="releaseYear"> </p>
+            <p id="genreText"> </p>
+            <div class="gametags">
+              <p>Multiplayer</p>
+              <p>Co-Op</p>
+              <p>Single-Player</p>
+              <p>Online PvP</p>
+            </div>
+            <div class="addtowishlist">
+              <p id="favoritedTextContainer"> Add To Favorites </p>
+              <i id="hearticon"></i>
+            </div>
+          </div>
+          <div class="box2">
+            <div class="buytext">
+              <h2 id="weekenddealtext"> Weekend Deal! </h2>
+              <p id="offertimertext"> Offer ends in 48:21:03 </p>
+            </div>
+            <div class="buyandprice">
+              <p id="pricetag"> </p>
+              <p id="addtocart"> Add to cart </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lowerhalf-container">
+        <h3 id="moreaboutthisgametext"> More About This Game </h3>
+        <div class="gamedescription">
+          <p id="mobiletextgamepage"> Red Dead Redemption 2 is an open-world action-adventure game that unfolds in the
+            late 1800s. <br>
+            As Arthur Morgan, a trusted member of the Van der Linde gang, players embark on a journey to escape the
+            relentless pursuit of the law and find a peaceful refuge.<br>
+            The game immerses players in a sprawling and meticulously crafted world, rich in detail and atmosphere.<br>
+            The narrative delves into themes of loyalty, morality, and the gradual transformation of the Wild West as
+            civilization encroaches upon it.<br>
+            Players can engage in a wide range of activities, from intense gunfights and daring heists to hunting wild
+            animals and partaking in card games.<br>
+            The decisions players make throughout the game affect Arthur's honor and reputation, shaping the story's
+            outcome.<br>
+            "Red Dead Redemption 2" has received widespread acclaim for its compelling storytelling, stunning visual
+            design, and intricate character development.<br>
+
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="footercontainer">
+      <ul>
+        <li class="footertext2"> <a href="contactus.html"> CONTACT US </a> </li>
+        <li class="footerline2"> ┃ </li>
+        <li class="footertext3"> REFUNDS AND RETURNS </li>
+        <li class="footerline3"> ┃ </li>
+        <li class="footertext4"> TERMS OF SERVICE </li>
+        <li class="footerline4"> ┃ </li>
+        <li class="footertext5"> <a href="about.html"> ABOUT US </a> </li>
+      </ul>
+    </div>
+    <div class="footercontainermobile">
+      <a href="emptycart.html"><img src="favicon_package_v0.16/shoppingcartmobile.svg" alt="shopping cart"></a>
+      <a href="index.html"><img src="favicon_package_v0.16/homeicon_lit.svg" alt="home page"></a>
+      <a href="phonemenu.html"><img src="favicon_package_v0.16/hamburgermenu.svg" alt="menu"></a>
+    </div>
+  </footer>
+</body>
+
+</html>

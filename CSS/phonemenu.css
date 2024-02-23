@@ -1,0 +1,104 @@
+@import url('header.css');
+@import url('footer.css');
+
+/*----------- MEDIA QUERIES NEEDS TO BE AT BOTTOM -----------*/          
+@import url('mediaqueries.css');
+
+
+                              
+
+:root {
+    --blue: #46D3FF;
+    --whitetext: FFFFFF;
+    --boxes1: 1C1C1C;
+    --boxes2: 232323;
+    --pagebackroundcolor: 121212;
+    --footer: rgba(82, 82, 82, 0.17);
+    --mobilefooterbackround: 0C0C0C;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+.headercontainermain {
+    justify-content: center !important;
+}
+
+
+.header-container-left p {
+    font-size: 1rem !important;
+}
+
+
+
+
+body {
+    background-color: var(--pagebackroundcolor);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 350px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--whitetext);
+
+}
+
+.phonemenuimagecontainer {
+    background-image: url(../images/Logos_ect/phonemenuebackround.png);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phonemenuimagecontainer > img {
+    width: 60vw;
+    max-width: 400px;
+
+}
+
+
+.all-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.listcontainer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--pagebackroundcolor);
+    justify-content: center;
+    font-size: 1.2rem;
+    height: 100%;
+    border: 2px solid var(--footer);
+}
+
+.listcontainer p {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.footercontainer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+form {
+    
+}
+
+
